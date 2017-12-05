@@ -1,8 +1,4 @@
 {
-  "API-Server": {
-    "protocol": "http",
-    "host": "184.172.233.10:30120"
-  },
   "APIs": {
   }
 }
