@@ -1,4 +1,12 @@
 {
   "APIs": {
+  "catalog": {
+    "host": "lightblue-catalog-vbudiusibmcom.mybluemix.net",
+    "base_path": "/micro"
+  },
+  "customer": {
+    "host": "lightblue-customer-vbudiusibmcom.mybluemix.net",
+    "base_path": "/micro"
+  }
   }
 }

@@ -34,6 +34,18 @@ app.config(['$routeProvider', function($routeProvider) {
        templateUrl : baseUrl + 'home.html',
        controller: 'HomeController'
     })
+    .when('/catalog', {
+       templateUrl : baseUrl + 'catalog.html',
+       controller: 'CatalogController'
+    })
+    .when('/item/:id', {
+       templateUrl : baseUrl + 'item.html',
+       controller: 'ItemController'
+    })
+    .when('/customer', {
+       templateUrl : baseUrl + 'customer.html',
+       controller: 'CustomerController'
+    })
     .otherwise({
         redirectTo: '/home'
     });
